@@ -71,6 +71,7 @@ namespace Images.web.Controllers
             {
                 idsVerified.Add(imageId);
                 HttpContext.Session.Set("IdList", idsVerified);
+             
 
             }
             else
